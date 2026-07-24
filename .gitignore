@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.smn_cache/
+output/
+.venv/
