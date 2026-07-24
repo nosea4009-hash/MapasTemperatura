@@ -34,6 +34,18 @@ Los contornos geográficos (límite provincial y límites de
 departamentos/partidos, dibujados como referencia interna) se toman de los
 archivos `ar.json` y `departamentos.geojson` incluidos en este repositorio.
 
+## Ejemplo
+
+Temperaturas máximas de Buenos Aires del 22/07/2026 (dato oficial más
+reciente disponible del SMN al momento de generar este ejemplo), obtenido
+con:
+
+```bash
+python main.py --provincia "Buenos Aires" --fecha 20260722 --variable max
+```
+
+![Ejemplo: Temperaturas máximas Buenos Aires 22/07/2026](examples/Buenos_Aires_max_20260722.png)
+
 ## Estructura del proyecto
 
 ```
